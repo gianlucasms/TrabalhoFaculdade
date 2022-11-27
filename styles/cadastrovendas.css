@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 25vh;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10px;
+}
+.div1 legend{
+    font-size:20px;
+}
+.div1 input{
+    margin-left: 20vh;
+    width: 50%;
+}
+.div2{
+    width: 100%;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10px;
+}
+.div2 legend{
+    font-size:20px;
+}
+.div2 select{
+    margin-left: 23vh;
+    width: 50%;
+}
+
+.div3{
+    width: 100%;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10px;
+}
+.div3 legend{
+    font-size:20px;
+}
+.div3 input{
+    margin-left: 9vh;
+    width: 50%;
+}
+
+.div4{
+    width: 100%;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10px;
+}
+.div4 legend{
+    font-size:20px;
+}
+.div4 select{
+    margin-left: 4vh;
+    width: 50%;
+}
+.botoespag2{
+    margin-left: 20px;
+}
+.botoespag2 button{
+    width: 10%;
+    height: 40px;
+    font-size: 1.5vw;
+    margin-top: 10px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.btnverde{
+    background-color:rgb(0, 255, 0);
+}
+.btnverde:hover{
+    transition: 0.3s ;
+    background-color:rgb(0, 185, 0);
+}
+.btnbranco:hover{
+    background-color:rgb(202, 202, 202);
+}
+.historico{
+    width:100%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.historico button{
+    width: 30vh;
+    height: 10vh;
+    font-size:2.5vh;
+    cursor: pointer;
+}

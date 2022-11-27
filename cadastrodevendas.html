@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pag1.css">
+    <link rel="stylesheet" href="styles/cadastrovendas.css">
+    <title>Cadastro de Vendas</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href="pagprincipal.html">Clynn</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="pagcadastroproduto.html">Produtos</a></li>
+            <li><a href="pagcadastrocompras.html">Compras</a></li>
+            <li><a href="cadastrodevendas.html">Vendas</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <fieldset>
+      <main>
+        <div class="div1">
+            <legend>ID venda</legend>
+            <input type="number" placeholder="1" disabled>
+        </div>
+        <div class="div2">
+            <legend>Cliente</legend>
+            <select name="select">
+                <option value="valor1">José Maria Bezerra</option>
+                <option value="valor2" selected>Maria José Bezerra</option>
+              </select>
+        </div>
+        <div class="div3">
+            <legend>Valor total venda</legend>
+            <input type="number" placeholder="00.0" disabled>
+        </div>
+        <div class="div4">
+            <legend>Forma de pagamento</legend>
+            <select name="select">
+                <option value="valor1">Cartao Débito</option>
+                <option value="valor2" selected>Cartão de crédito</option>
+                <option value="valor3">Pix</option>
+                <option value="valor4">Dinheiro</option>
+              </select>
+        </div>
+    </fieldset>
+      </main>
+        <div class="botoespag2">
+            <button class="btnverde">Salvar</button>
+            <button class="btnbranco">Cancelar</button>
+          </div>
+          <div class="historico">
+            <a href="historicodevendas.html"><button>Historico de Compra</button></a>
+          </div>
+    
+</body>
+</html>

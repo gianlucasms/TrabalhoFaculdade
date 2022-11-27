@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pag1.css">
+    <link rel="stylesheet" href="styles/historicocompras.css">
+    <script src="https://kit.fontawesome.com/751bb14759.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/pagcadastro.css">
+    <title>Historico De Compras</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href="pagprincipal.html">Clynn</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="pagcadastroproduto.html">Produtos</a></li>
+            <li><a href="pagcadastrocompras.html">Compras</a></li>
+            <li><a href="cadastrodevendas.html">Vendas</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="inputes">
+          <legend>ID compra</legend>
+          <input type="number" step="1">
+          <legend>Fornecedor</legend>
+          <select name="select">
+            <option value="valor1">Cuida +</option>
+            <option value="valor2" selected>YourBody</option>
+            <option value="valor3">LadyCanan</option>
+            <option value="valor3">Beauty Corpus</option>
+          </select>
+          <legend>Data Compra</legend>
+          <input class="campo" type="date"><br>
+          <label>Valor Total</label>
+          <input class="campo" disabled placeholder="0.00" type="number"><br>
+          <button>Search</button>
+          <button>Reset</button>
+        </div>
+        <div class="functions">
+          <button class="pesquisar"><i class="fa-solid fa-magnifying-glass"></i></i>      Pesquisa</button>
+          <button class="novo"><i class="fa-solid fa-plus"></i>     Novo</button>
+          <button class="editar"><i class="fa-regular fa-pen-to-square"></i>         Editar</button>
+          <button class="deletar"><i class="fa-solid fa-x"></i>            Deletar</button>
+
+          <div class="passar">
+            <i class="fa-solid fa-backward-fast "></i>
+            <i class="fa-sharp fa-solid fa-backward"></i>
+            <p>1 to 2 of 2</p>
+            <i class="fa-solid fa-forward"></i>
+            <i class="fa-solid fa-forward-fast"></i>
+          </div>
+        </div>
+        <div class="listacadastro">
+          <table border="2">
+            <tr>
+                <th width="5%">Id compra</th>
+                <th width="30%">Fornecedor</th>
+                <th width="15%">Data compra</th>
+                <th width="15%">Valor total</th>
+            </tr>
+            <tr>
+                <td>#25</td>
+                <td>YourBody</td>>
+                <td>25/10/2010</td>
+                <td>15,99</td>
+            </tr>
+            <tr>
+                <td>#38</td>
+                <td>Beauty Corpus</td>
+                <td>30/06/2003</td>
+                <td>117,99</td>
+            </tr>
+             <tr>
+                <td>#12</td>
+                <td>Lady Canan</td>
+                <td>05/12/2020</td>
+                <td>5,99</td>
+            </tr>
+        </table>
+        </div>
+      </main>
+    
+</body>
+</html>

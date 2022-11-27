@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+.inputes {
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.inputes input{
+    width: 15%;
+    height: 20px;
+}
+.inputes select {
+    height: 25px;   
+}
+.inputes legend, label{
+    margin-left: 2vh;
+}
+.inputes button{
+    width: 5%;
+    background-color: transparent;
+    height: 30px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    margin-left:5vh;
+    transition: 0.3s ;
+}
+.inputes button:hover{
+    transition: 0.3s ;
+    background-color: rgb(168, 168, 168);
+}

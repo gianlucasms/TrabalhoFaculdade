@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pag1.css">
+    <link rel="stylesheet" href="styles/pagcadastrocompra.css">
+    <link rel="stylesheet" href="styles/pagcadastro.css">
+    <title>Pagina - Cadastro Compras</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href="pagprincipal.html">Clynn</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="pagcadastroproduto.html">Produtos</a></li>
+            <li><a href="pagcadastrocompras.html">Compras</a></li>
+            <li><a href="cadastrodevendas.html">Vendas</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+      <main>
+        <form id="formulario" autocomplete="off">
+          <fieldset>
+            <legend>Cadastro De Compras</legend>
+            <label>ID compra</label>
+            <input class="campo" step="01" placeholder="0" type="number"><br>
+            <div class="checkboxes">
+              <legend>Fornecedores</legend>
+              <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros" checked>
+              <h3>Cuida +</h3>
+              <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros">
+              <h3>YourBody</h3>
+              <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros">
+              <h3>LadyCanan</h3>
+              <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros">
+              <h3>Beauty Corpus</h3>
+            </div>
+            <label>Data Compra</label>
+            <input class="campo" type="date"><br>
+            <label>Valor Total</label>
+            <input class="campo" disabled placeholder="0.00" type="number"><br>
+        </form>
+      </fieldset>
+      <div class="botoespag2">
+        <button class="btnverde">Salvar</button>
+        <button class="btnbranco">Cancelar</button>
+      </div>
+     <a href="historicodecompras.html"><button class="historico">Historio de Compra</button></a>
+      </main>
+         
+</body>
+</html>

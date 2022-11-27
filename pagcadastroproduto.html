@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pag1.css">
+    <link rel="stylesheet" href="styles/pagcadastro.css">
+    <link rel="icon" type="imagem/png" href="imagem/logo.PNG" />
+    <script src="https://kit.fontawesome.com/751bb14759.js" crossorigin="anonymous"></script>
+
+    <title>Clynn - Cadastro de Produtos</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href="pagprincipal.html">Clynn</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="pagcadastroproduto.html">Produtos</a></li>
+            <li><a href="pagcadastrocompras.html">Compras</a></li>
+            <li><a href="cadastrodevendas.html">Vendas</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="area">
+        <form id="formulario" autocomplete="off">
+          <fieldset>
+            <legend>Cadastro De Produtos</legend>
+            <label>Produto</label>
+            <input class="campo" type="text"><br>
+            <label>ID produto</label>
+            <input class="campo" step="01" placeholder="0" type="number"><br>
+            <label>Quantidade</label>
+            <input class="campo" step="0.01" placeholder="0.00" type="number"><br>
+            <label>Valor Custo</label>
+            <input class="campo" step="0.01" placeholder="0.00" type="number"><br>
+            <label>Valor Venda</label>
+            <input class="campo" step="0.01" placeholder="0.00" type="number"><br><br>
+        </form>
+        
+            <div class="tipodoproduto">
+            <div class="texttipo">
+                <label >Tipo de Produto</label>
+            </div> 
+            <div class="checkboxes">
+            <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros">
+            <h3>Creme</h3>
+            <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros">
+            <h3>Hidradante</h3>
+            <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros">
+            <h3>Mascara Facial</h3>
+            <input class="checkbox" type="checkbox" name="produtoscachorros" id="produtoscachorros">
+            <h3>Esfoliador</h3
+            
+            </div> 
+            </div>
+          </fieldset>
+      </div>
+     <div class="main">
+
+      <div class="botoespag2">
+        <button class="btnverde">Salvar</button>
+        <button class="btnbranco">Cancelar</button>
+      </div>
+
+      <div class="functions">
+        <button class="pesquisar"><i class="fa-solid fa-magnifying-glass"></i></i>      Pesquisa</button>
+        <button class="novo"><i class="fa-solid fa-plus"></i>     Novo</button>
+        <button class="editar"><i class="fa-regular fa-pen-to-square"></i>         Editar</button>
+        <button class="deletar"><i class="fa-solid fa-x"></i>            Deletar</button>
+      </div>
+
+      <div class="passar">
+        <i class="fa-solid fa-backward-fast "></i>
+        <i class="fa-sharp fa-solid fa-backward"></i>
+        <p>1 to 2 of 2</p>
+        <i class="fa-solid fa-forward"></i>
+        <i class="fa-solid fa-forward-fast"></i>
+      </div>
+
+      <div class="listacadastro">
+        <table border="2">
+          <tr>
+              <th width="5%">Id produto</th>
+              <th width="30%">Produto</th>
+              <th width="15%">Quantidade</th>
+              <th width="15%">Valor Custo</th>
+              <th width="15%">Valor Venda</th>
+              <th width="25%">Tipo de Produto</th>
+          </tr>
+          <tr>
+              <td>#25</td>
+              <td>Serum</td>
+              <td>2</td>
+              <td>15,99</td>
+              <td>49,99</td>
+              <td>Hidradante</td>
+          </tr>
+          <tr>
+              <td>#38</td>
+              <td>Cetaphil</td>
+              <td>3</td>
+              <td>117,99</td>
+              <td>199,99</td>
+              <td>Creme</td>
+          </tr>
+           <tr>
+              <td>#12</td>
+              <td>Black Mask</td>
+              <td>5</td>
+              <td>5,99</td>
+              <td>15,99</td>
+              <td>Mascara Facial</td>
+          </tr>
+      </table>
+      </div>
+     </div>
+
+
+</body>
+</html>
